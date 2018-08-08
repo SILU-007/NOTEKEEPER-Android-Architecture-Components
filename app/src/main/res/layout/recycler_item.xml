@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:elevation="5dp"
+    android:background="#fff"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:text="Sunil "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Kumar "
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#808080"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Sunil "
+                android:textColor="#808080"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
